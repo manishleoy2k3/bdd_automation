@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="1.285">
+    <testcase classname="Search J P Morgan on google search page and verify Logo" name="Google Search Page launch" time="0.312">
+        <failure message="src\test\java\com\jpmorgan\bdd_automation\global.properties (The system cannot find the path specified)" type="java.io.FileNotFoundException"><![CDATA[Given User is on google search Google page..................................skipped
+When User searched for J P Morgan Text......................................skipped
+Then Search results J P Morgan - Google Search are displayed................skipped
+And User clicks on first result link........................................skipped
+And J P Morgan Home page "J.P. Morgan | Official Website" is shown..........skipped
+
+StackTrace:
+java.io.FileNotFoundException: src\test\java\com\jpmorgan\bdd_automation\global.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at base.Base.getDriver(Base.java:15)
+	at stepDefinitions.Hooks.beforeValidation(Hooks.java:15)
+]]></failure>
+    </testcase>
+    <testcase classname="Search J P Morgan on google search page and verify Logo" name="Verify the Logo of J P Morgan on Home Page" time="0.037">
+        <failure message="src\test\java\com\jpmorgan\bdd_automation\global.properties (The system cannot find the path specified)" type="java.io.FileNotFoundException"><![CDATA[Given User is on J P Morgan Home page.......................................skipped
+When User clicks on J P Morgan logo.........................................skipped
+Then Verify the J P Morgan logo is present..................................skipped
+
+StackTrace:
+java.io.FileNotFoundException: src\test\java\com\jpmorgan\bdd_automation\global.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at base.Base.getDriver(Base.java:15)
+	at stepDefinitions.Hooks.beforeValidation(Hooks.java:15)
+]]></failure>
+    </testcase>
+</testsuite>

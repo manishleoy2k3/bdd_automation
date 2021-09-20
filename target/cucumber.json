@@ -1,0 +1,233 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-20T09:10:22.934Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "java.io.FileNotFoundException: src\\test\\java\\com\\jpmorgan\\bdd_automation\\global.properties (The system cannot find the path specified)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat base.Base.getDriver(Base.java:15)\r\n\tat stepDefinitions.Hooks.beforeValidation(Hooks.java:15)\r\n",
+              "duration": 9014400,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeValidation()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Google Search Page launch",
+        "description": "",
+        "id": "search-j-p-morgan-on-google-search-page-and-verify-logo;google-search-page-launch;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.close()\" because \"this.driver\" is null\r\n\tat stepDefinitions.Hooks.afterValidation(Hooks.java:22)\r\n",
+              "duration": 999400,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.afterValidation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 999700,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User is on google search Google page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Google",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.MyStepDefinitions.user_is_on_google_search_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 999700,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User searched for J P Morgan Text",
+            "match": {
+              "arguments": [
+                {
+                  "val": "J P Morgan",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinitions.MyStepDefinitions.user_searched_for_text(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1001900,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Search results J P Morgan - Google Search are displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "J P Morgan - Google Search",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.MyStepDefinitions.search_results_are_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 999700,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "User clicks on first result link",
+            "match": {
+              "location": "stepDefinitions.MyStepDefinitions.user_clicks_on_first_result_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998500,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "J P Morgan Home page \"J.P. Morgan | Official Website\" is shown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "J.P. Morgan | Official Website",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefinitions.MyStepDefinitions.j_p_morgan_home_page_is_shown(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-20T09:10:23.296Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "java.io.FileNotFoundException: src\\test\\java\\com\\jpmorgan\\bdd_automation\\global.properties (The system cannot find the path specified)\r\n\tat java.base/java.io.FileInputStream.open0(Native Method)\r\n\tat java.base/java.io.FileInputStream.open(FileInputStream.java:211)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:153)\r\n\tat java.base/java.io.FileInputStream.\u003cinit\u003e(FileInputStream.java:108)\r\n\tat base.Base.getDriver(Base.java:15)\r\n\tat stepDefinitions.Hooks.beforeValidation(Hooks.java:15)\r\n",
+              "duration": 3996900,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeValidation()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Verify the Logo of J P Morgan on Home Page",
+        "description": "",
+        "id": "search-j-p-morgan-on-google-search-page-and-verify-logo;verify-the-logo-of-j-p-morgan-on-home-page;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.close()\" because \"this.driver\" is null\r\n\tat stepDefinitions.Hooks.afterValidation(Hooks.java:22)\r\n",
+              "duration": 999600,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.afterValidation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 998100,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "User is on J P Morgan Home page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "J P Morgan",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.MyStepDefinitions.user_is_on_j_p_morgan_home_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "User clicks on J P Morgan logo",
+            "match": {
+              "location": "stepDefinitions.MyStepDefinitions.user_clicks_on_j_p_morgan_logo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999000,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "Verify the J P Morgan logo is present",
+            "match": {
+              "location": "stepDefinitions.MyStepDefinitions.verify_the_j_p_morgan_logo_is_present()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Search J P Morgan on google search page and verify Logo",
+    "description": "",
+    "id": "search-j-p-morgan-on-google-search-page-and-verify-logo",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/search.feature",
+    "tags": [
+      {
+        "name": "@SmokeTest",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
