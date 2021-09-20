@@ -11,13 +11,18 @@ public class GoogleSearchPage {
 		this.driver = driver;
 	}
 
+	// google search field locator
 	By searchFieldName = By.xpath("//input[@title='Search']");
+	
+	// search results first link locators
 	By firstSearchLink = By.xpath("//h3[normalize-space()='J.P. Morgan | Official Website']");
 	
+	// method to return the web element for search field
 	public WebElement getSearchField() {
 		return driver.findElement(searchFieldName);
 	}
 	
+	// method to return the web element for first link of search results
 	public WebElement getFirstSearchLink() {
 		return driver.findElement(firstSearchLink);
 	}

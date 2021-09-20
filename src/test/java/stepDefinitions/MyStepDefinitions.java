@@ -13,6 +13,8 @@ import io.cucumber.junit.Cucumber;
 import pageObjects.GoogleSearchPage;
 import pageObjects.JPMorganHomePage;
 
+// Step Definitions file mapped with feature file to drive the tests execution
+
 @RunWith(Cucumber.class)
 public class MyStepDefinitions extends Base {
 
@@ -64,7 +66,7 @@ public class MyStepDefinitions extends Base {
 	}
 	@Then("^Verify the J P Morgan logo is present$")
 	public void verify_the_j_p_morgan_logo_is_present() {
-		// verify Logo
+		// verify Logo is present or not
 		Assert.assertTrue(jp.isLogoPresent());
 	}
 }

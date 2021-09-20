@@ -1,5 +1,7 @@
 #Author: manishleoy2k3@gmail.com
 
+#@SmokeTest tagging is used to tag tests in order to run tests in groups
+
 @SmokeTest
 Feature: Search J P Morgan on google search page and verify Logo
 
@@ -19,6 +21,7 @@ And J P Morgan Home page "J.P. Morgan | Official Website" is shown
 Examples: 
 | name       |googlePageTitle| searchResult               |
 | J P Morgan |Google         | J P Morgan - Google Search | 
+
 
 @SmokeTest
 Scenario Outline: Verify the Logo of J P Morgan on Home Page

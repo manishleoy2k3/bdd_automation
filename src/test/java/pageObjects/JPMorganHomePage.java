@@ -12,12 +12,15 @@ public class JPMorganHomePage {
 		this.driver = driver;
 	}
 	
+	// J P Morgan logo locator
 	By logo = By.xpath("//div[@class='logo-desktop-only']//img[@alt='J.P. Morgan logo']");
 	
+	// method to return the web element logo
 	public WebElement getLogo() {
 		return driver.findElement(logo);
 	}
 	
+	// method to return the true or false depending on logo is present or not on J P Morgan Home page
 	public Boolean isLogoPresent() {
 		WebElement i = getLogo();
 		// Javascript executor to check logo image

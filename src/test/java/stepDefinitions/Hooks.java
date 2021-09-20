@@ -10,6 +10,7 @@ import io.cucumber.java.Before;
 public class Hooks extends Base {
 	public WebDriver driver;
 
+	// This is reusable code which will execute before each tests tagged as Smoke Tests
 	@Before("@SmokeTest")
 	public void beforeValidation() throws IOException {
 		driver = Base.getDriver();
@@ -17,6 +18,7 @@ public class Hooks extends Base {
 		driver.get(prop.getProperty("url"));
 	}
 
+	// This is reusable code which will execute after each tests tagged as Smoke Tests
 	@After("@SmokeTest")
 	public void afterValidation() throws IOException {
 		driver.close();

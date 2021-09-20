@@ -12,7 +12,7 @@ public class Base {
 
 	public static WebDriver getDriver() throws IOException {
 		prop = new Properties();
-		FileInputStream fis = new FileInputStream("src\\test\\java\\com\\jpmorgan\\bdd_automation\\global.properties");
+		FileInputStream fis = new FileInputStream("src\\test\\java\\base\\global.properties");
 
 		prop.load(fis);
 		System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\driver\\chromedriver.exe");
