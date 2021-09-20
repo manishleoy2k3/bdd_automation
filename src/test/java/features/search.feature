@@ -17,8 +17,8 @@ And User clicks on first result link
 And J P Morgan Home page "J.P. Morgan | Official Website" is shown
 
 Examples: 
-| name       |googlePageTitle| searchResult               | j_p_morgan_home              |
-| J P Morgan |Google         | J P Morgan - Google Search | J.P. Morgan  Official Website |
+| name       |googlePageTitle| searchResult               |
+| J P Morgan |Google         | J P Morgan - Google Search |
 
 @SmokeTest
 Scenario Outline: Verify the Logo of J P Morgan on Home Page
